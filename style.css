@@ -1,0 +1,165 @@
+body {
+  font-family: Comic Sans MS;
+  font-weight: 400;
+  font-size: 1.3125rem;
+  line-height: 1.6;
+  background-color:lavender;
+  background-image: url('https://www.teahub.io/photos/full/15-158423_water-splash-shallow-focus-photography-best-background-for.jpg')
+}
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+p{
+ color:darkslategray;
+}
+
+h1 {
+  color: slategrey ;
+  font-family: forte;
+  font-weight: 900;
+  line-height: 1;
+  color:crimson;
+}
+
+h2,
+h3,
+p {
+  margin-bottom: 1em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header,
+section {
+  padding: 4rem 0;
+  @media (min-width: 40em) {
+    header,
+    section {
+      padding: 7rem 0;
+    }
+  }
+}
+
+.container {
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 40em) {
+  .split {
+    flex-direction: row;
+  }
+
+  .split > * {
+    flex-basis: 100%;
+  }
+
+  .split > * + * {
+    margin-left: 2em;
+  }
+}
+
+.container--narrow {
+  max-width: 37rem;
+  max-height: 18rem;
+  background-image: url('https://cdn.dribbble.com/users/2520930/screenshots/5568228/artboard_1_copy_3_4x-8_4x.png')
+}
+
+.bg-light {
+  background-color: lemonchiffon;
+  font-size: 25px;
+}
+.bg-light h2{
+  color:lightskyblue
+}
+
+.abc {
+  background-color: lightsalmon;
+}
+.abc h2{
+  color:darkcyan;
+}
+.abc p{
+  color:darkmagenta;
+}
+
+.bg-primary {
+  color: #fff;
+  background-color: cadetblue;
+  ont-family: Comic Sans MS;
+}
+
+.bg-dark {
+  color: #fff;
+  background-color: #222c2a;
+}
+.bg-dark h2{
+  color:lavender;
+}
+.bg-dark p{
+  color:ivory;
+}
+.bg-primary p {
+  color:khaki;
+}
+.bg-primary h2{
+  color:crimson;
+}
+  
+.cinfo{
+  background-color:lightgreen;
+}
+.cinfo a{
+  color:firebrick;
+}
+.cinfo h2{
+  color:darkslategray;
+}
+
+.navbar {
+  width: 100%;
+  background-color: teal;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: YellowGreen;
+}
+
+.active {
+  background-color: LightCoral;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+
